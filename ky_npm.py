@@ -50,7 +50,7 @@ class InsufficientArguments(Exception):
         self.message = message
         super().__init__(self.message)
 
-class RequestSender(key):
+class RequestSender():
     def __init__(self,key):
         self.key = key
 
